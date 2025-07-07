@@ -3,6 +3,10 @@
 A full-stack URL Shortener application built with **Node.js**, **Express**, **MongoDB**, and **EJS**.  
 This app allows users to shorten long URLs into compact links and redirect back to the original address.
 
+## 📸 Live Demo
+
+🌐 [Click here to view the live app on Render](https://url-shortner-lin3.onrender.com/)
+
 ---
 
 ## 🚀 Features
