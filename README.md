@@ -37,6 +37,7 @@ To access and use the URL Shortener, run it on your local machine using the step
 1. Open the project folder in Visual Studio Code
 2. Open a terminal and run the following command:
 
+```bash
 **node server.js**
 
 ```bash
