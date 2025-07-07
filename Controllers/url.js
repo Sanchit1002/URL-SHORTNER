@@ -5,7 +5,7 @@ export const shortUrl = async (req,res)=>{
  const longUrl = req.body.longUrl;
  const shortCode = shortid.generate();
 
- const shortUrl = `http://localhost:1000/${shortCode}`
+ const shortUrl = `http://${req.headers.host}/${shortCode}`;
 
  // save to database
  const newUrl = new Url({shortCode,longUrl})
