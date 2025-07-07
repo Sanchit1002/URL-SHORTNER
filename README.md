@@ -1,31 +1,32 @@
 # 🔗 URL SHORTNER
 
-A simple and efficient URL Shortener built using **Node.js**, **Express**, and **MongoDB**.  
-This application allows users to convert long URLs into short, shareable links.
+A full-stack URL Shortener application built with **Node.js**, **Express**, **MongoDB**, and **EJS**.  
+This app allows users to shorten long URLs into compact links and redirect back to the original address.
 
 ---
 
 ## 🚀 Features
 
-- Shorten long URLs instantly
-- Redirect from shortened URL to original URL
-- Track how many times a URL was accessed (optional enhancement)
-- RESTful API endpoints
-- MongoDB for persistent storage
+- Shorten long URLs with a single click
+- Redirect short URLs to their original destination
+- Custom error message for invalid shortcodes
+- Server-side rendering using EJS
+- MongoDB for persistent URL storage
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Backend**: Node.js, Express.js
+- **Frontend**: EJS
 - **Database**: MongoDB with Mongoose
-- **Tools**: Nodemon, dotenv, shortid (or nanoid)
 
 ---
 
 ## 📦 Installation
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/Sanchit1002/URL-SHORTNER.git
-   cd URL-SHORTNER
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/Sanchit1002/URL-SHORTNER.git
+cd URL-SHORTNER
