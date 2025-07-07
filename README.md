@@ -20,6 +20,7 @@ This app allows users to shorten long URLs into compact links and redirect back 
 - **Backend**: Node.js, Express.js
 - **Frontend**: EJS
 - **Database**: MongoDB with Mongoose
+- **Deployment**: Render
 
 ---
 
