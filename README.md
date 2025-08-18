@@ -1,28 +1,36 @@
-# 🔗 URL SHORTNER
+# 🔗 URL SHORTENER
 
-A full-stack URL Shortener application built with **Node.js**, **Express**, **MongoDB**, and **EJS**.  
-This app allows users to shorten long URLs into compact links and redirect back to the original address.
+> A clean, minimal full-stack URL shortener built with **Node.js**, **Express**, **MongoDB (Mongoose)** and **EJS**.
 
----
+[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)]()
+[![Express](https://img.shields.io/badge/Express.js-4-black?logo=express&logoColor=white)]()
+[![MongoDB](https://img.shields.io/badge/MongoDB-6-47A248?logo=mongodb&logoColor=white)]()
+[![EJS](https://img.shields.io/badge/EJS-templates-1f425f)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#-license)
 
-## 🚀 Features
-
-- Shorten long URLs with a single click
-- Redirect short URLs to their original destination
-- Custom error message for invalid shortcodes
-- Server-side rendering using EJS
-- MongoDB for persistent URL storage
+Shorten long links into compact, shareable URLs and redirect users back to the original destination.  
+Includes server-side rendered pages, validations, and persistent storage.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Features
 
-- **Backend**: Node.js, Express.js
-- **Frontend**: EJS
-- **Database**: MongoDB with Mongoose
-- **Deployment**: Render
+- 🔗 **One-click shortening** of long URLs
+- 🚀 **Fast redirects** from `/{shortCode}` to original URL
+- 🧪 **Validation & custom error pages** for invalid or expired links
+- 📊 (Optional) **Click count** tracking per short URL
+- 🧱 **SSR with EJS** for a simple, zero-JS frontend
+- 🗄️ **MongoDB + Mongoose** for persistence
 
 ---
+
+## 🧰 Tech Stack
+
+- **Backend:** Node.js, Express.js  
+- **Frontend:** EJS (server-side rendered) + Tailwind (optional)  
+- **Database:** MongoDB (Mongoose ODM)  
+- **Hosting (optional):** Render / Railway / Vercel (server)  
+
 
 ## ⚠️ Note
 
