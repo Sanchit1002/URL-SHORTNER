@@ -11,7 +11,7 @@
 Shorten long links into compact, shareable URLs and redirect users back to the original destination.  
 Includes server-side rendered pages, validations, and persistent storage.
 
----
+
 
 ## ✨ Features
 
@@ -21,7 +21,7 @@ Includes server-side rendered pages, validations, and persistent storage.
 - 🧱 **SSR with EJS** for a simple, zero-JS frontend
 - 🗄️ **MongoDB + Mongoose** for persistence
 
----
+
 
 ## 🧰 Tech Stack
 
@@ -48,7 +48,7 @@ Includes server-side rendered pages, validations, and persistent storage.
 
 To access and use the URL Shortener, run it on your local machine using the steps below.
 
----
+
 
 ## ▶️ Run Locally (VS Code)
 
